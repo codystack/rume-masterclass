@@ -17239,7 +17239,7 @@ footer {
   .accordion-control h5 {
     line-height: 1.5em; }
   .accordion-control::after {
-    content: "\ebfa";
+    /* content: "\ebfa"; */
     position: absolute;
     width: 1em;
     line-height: 1em;
