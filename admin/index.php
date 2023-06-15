@@ -38,7 +38,7 @@ include "./auth/account.php";
                         <div class="card-body bg-white">
                             <?php
                                 if (isset($_SESSION['error_message'])) {
-                                    ?>
+                            ?>
                                     <div class="alert alert-danger" role="alert">
                                         <div class="alert-message text-center">
                                             <?php
@@ -47,19 +47,19 @@ include "./auth/account.php";
                                             ?>
                                         </div>
                                     </div>
-                                    <?php
+                            <?php
                                     unset($_SESSION['error_message']);
                                 }
                             ?>
                             <?php
                                 if (isset($_SESSION['success_message'])) {
-                                    ?>
+                            ?>
                                     <div class="alert alert-success" role="alert">
                                         <div class="alert-message text-center">
                                             <?php echo $_SESSION['success_message']; ?>
                                         </div>
                                     </div>
-                                    <?php
+                            <?php
                                     unset($_SESSION['success_message']);
                                 }
                             ?>
