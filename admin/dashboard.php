@@ -17,17 +17,6 @@ require_once 'auth/account.php';
                                         <h2>Welcome, <?php echo $_SESSION['firstName']; ?>!</h2>
                                     </div>
                                 </div>
-                                <div class="row g-1 align-items-center">
-                                    <div class="col-auto">
-                                        <?php
-                                            $countTraffic = mysqli_query($conn, "SELECT id FROM traffic");
-                                            echo "<div class=\"badge rounded-pill bg-white text-primary\"><span>".number_format(mysqli_num_rows($countTraffic), 0, '.', ',')."</span></div>"
-                                        ?>
-                                    </div>
-                                    <div class="col-auto">
-                                        <p class="ms-md-2 text-white fs-6">Website Visitors</p>
-                                    </div>
-                                </div>
                             </div>
                             <img class="position-absolute top-100 start-100 translate-middle"
                             src="./assets/images/svg/pattern.svg" alt="Image">
@@ -46,46 +35,7 @@ require_once 'auth/account.php';
                                                             <img src="./assets/images/apply.svg" alt="Logo" class="mb-2 w-40">
                                                         </div>
                                                         <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Summit Application</h4>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos-delay="100">
-                                                <a href="exhibitors-application" class="card equal-md-4-3 card-hover-border bg-white">
-                                                    <div class="card-wrap text-center">
-                                                        <div class="card-header pb-0">
-                                                            <img src="./assets/images/exhibit.svg" alt="Logo" class="mb-2 w-40">
-                                                        </div>
-                                                        <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Exhibitors Application</h4>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos-delay="100">
-                                                <a href="designers-application" class="card equal-md-4-3 card-hover-border bg-white">
-                                                    <div class="card-wrap text-center">
-                                                        <div class="card-header pb-0">
-                                                            <img src="./assets/images/designers.svg" alt="Logo" class="mb-2 w-40">
-                                                        </div>
-                                                        <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Designers Application</h4>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-
-                                            <div class="col-md-6" data-aos-delay="100">
-                                                <a href="future-application" class="card equal-md-4-3 card-hover-border bg-white">
-                                                    <div class="card-wrap text-center">
-                                                        <div class="card-header pb-0">
-                                                            <img src="./assets/images/future-designers.svg" alt="Logo" class="mb-2 w-40">
-                                                        </div>
-                                                        <div class="card-footer pt-0 mt-auto">
-                                                            <h4 class="card-title fw-light">Future Designers Application</h4>
+                                                            <h4 class="card-title fw-light">Masterclass Registration</h4>
                                                         </div>
                                                     </div>
                                                 </a>

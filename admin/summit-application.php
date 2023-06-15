@@ -34,7 +34,7 @@ require_once 'auth/profile.php';
                                                     </a>
                                                 </div>
                                                 <div class="col-md-6 text-md-end">
-                                                    <h3 class="fs-6">Summit Application</h3>
+                                                    <h3 class="fs-6">Masterclass Registration</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,7 +53,7 @@ require_once 'auth/profile.php';
                                                     <tbody>
                                                     <?php
                                                     $quote_id = 1;
-                                                    $select_query = "SELECT * FROM summit ORDER BY dateCreated ASC";
+                                                    $select_query = "SELECT * FROM users ORDER BY dateCreated ASC";
                                                     $result = mysqli_query($conn, $select_query);
                                                     if (mysqli_num_rows($result) > 0) {
                                                         // output data of each row

@@ -78,6 +78,7 @@ require_once 'auth/profile.php';
                                                         $firstName = $row['firstName'];
                                                         $lastName = $row['lastName'];
                                                         $email = $row['email'];
+                                                        $phone = $row['phone'];
 
                                             ?>
 

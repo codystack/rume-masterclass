@@ -34,13 +34,13 @@ require_once 'auth/profile.php';
                                                     </a>
                                                 </div>
                                                 <div class="col-md-6 text-md-end">
-                                                    <h3 class="fs-6">Summit Application</h3>
+                                                    <h3 class="fs-6">Masterclass Registration</h3>
                                                 </div>
                                             </div>
                                         </div>
                                         <?php
                                             $id = $_GET['id'];
-                                                $select_query = "SELECT * FROM summit WHERE id ='$id'";
+                                                $select_query = "SELECT * FROM users WHERE id ='$id'";
                                                 $result = mysqli_query($conn, $select_query);
                                                 if (mysqli_num_rows($result) > 0) {
                                                 // output data of each row
@@ -73,10 +73,6 @@ require_once 'auth/profile.php';
                                                 <div class="col-md-6 mb-3">
                                                     <label for="phone" class="form-label">Phone Number</label>
                                                     <input type="tel" class="form-control" required name="phone" disabled value="<?php echo $phone; ?>">
-                                                </div>
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="jobTitle" class="form-label">Instagram</label>
-                                                    <input type="text" class="form-control" required name="jobTitle" disabled value="<?php echo $instagram; ?>">
                                                 </div>
                                                 <div class="col-md-6 mb-3">
                                                     <label for="company" class="form-label">Brand Name</label>

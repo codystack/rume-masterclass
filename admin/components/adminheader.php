@@ -20,7 +20,7 @@ if (isset($_GET['logout'])) {
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Virtuosic">
+    <meta name="author" content="ThankGod Okoro">
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png" /> 
 
@@ -29,7 +29,7 @@ if (isset($_GET['logout'])) {
     <link rel="stylesheet" href="./assets/font/stylesheet.css" />
     <link href="./assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
 
-    <title>Admin Dashboard :: Virtuosic Agency&trade;</title>
+    <title>Admin Dashboard :: Rume John&trade;</title>
 </head>
 
 <body>

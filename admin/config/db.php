@@ -25,4 +25,3 @@ $conn = mysqli_connect($host, $user, $password) or die("Could not connect to dat
 mysqli_select_db($conn, $database);
 // END Database connection and Configuration
 ?>
-?>
