@@ -110,128 +110,63 @@ include "./components/navbar.php";
             <div class="owl-carousel visible" data-items="[3]" data-nav="true" data-margin="10">
               <figure class="user">
                 <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-1.jpg" alt="Avatar">
+                  <img src="assets/images/user-1.jpg" alt="Avatar">
                 </a>
                 <figcaption class="user-caption">
-                  <h4>Nicole Doe</h4>
-                  <span>Head of Experience Design</span>
+                  <h4>Rume John</h4>
+                  <span>Lead Photographer Rume John Photography</span>
                   <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
+                    <li><a href="https://www.facebook.com/rumejohnphotography" target="_blank"  class="icon-facebook fs-20"></a></li>
+                    <li><a href="https://www.instagram.com/rumejohn_/" target="_blank" class="icon-instagram fs-20"></a></li>
+                    <!-- <li><a href="" class="icon-twitter fs-20"></a></li>
+                    <li><a href="" class="icon-linkedin fs-20"></a></li> -->
                   </ul>
                 </figcaption>
               </figure>
 
               <figure class="user">
                 <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-2.jpg" alt="Avatar">
+                  <img src="assets/images/user-2.jpg" alt="Avatar">
                 </a>
                 <figcaption class="user-caption">
-                  <h4>Valerie Doe</h4>
-                  <span>Head of Experience Design</span>
+                  <h4>Favour Otunji</h4>
+                  <span>Lead Photographer Kodeblac</span>
                   <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
+                    <!-- <li><a href="" class="icon-facebook fs-20"></a></li> -->
+                    <li><a href="https://www.instagram.com/kodeblacc/" target="_blank" class="icon-instagram fs-20"></a></li>
+                    <!-- <li><a href="" class="icon-twitter fs-20"></a></li>
+                    <li><a href="" class="icon-linkedin fs-20"></a></li> -->
                   </ul>
                 </figcaption>
               </figure>
 
               <figure class="user">
                 <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-3.jpg" alt="Avatar">
+                  <img src="assets/images/user-3.jpg" alt="Avatar">
                 </a>
                 <figcaption class="user-caption">
-                  <h4>Michael Doe</h4>
-                  <span>Head of Experience Design</span>
+                  <h4>Jeremie Julius</h4>
+                  <span>Lead Photographer Jeremie Visuals</span>
                   <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
+                    <!-- <li><a href="" class="icon-facebook fs-20"></a></li> -->
+                    <li><a href="https://www.instagram.com/jeremievisuals/" target="_blank" class="icon-instagram fs-20"></a></li>
+                    <!-- <li><a href="" class="icon-twitter fs-20"></a></li>
+                    <li><a href="" class="icon-linkedin fs-20"></a></li> -->
                   </ul>
                 </figcaption>
               </figure>
 
               <figure class="user">
                 <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-4.jpg" alt="Avatar">
+                  <img src="assets/images/user-4.jpg" alt="Avatar">
                 </a>
                 <figcaption class="user-caption">
-                  <h4>John Doe</h4>
-                  <span>Head of Experience Design</span>
+                  <h4>ThankGod Okoro</h4>
+                  <span>Head of Design Webify</span>
                   <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
-                  </ul>
-                </figcaption>
-              </figure>
-
-              <figure class="user">
-                <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-5.jpg" alt="Avatar">
-                </a>
-                <figcaption class="user-caption">
-                  <h4>Valerie Doe</h4>
-                  <span>Head of Experience Design</span>
-                  <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
-                  </ul>
-                </figcaption>
-              </figure>
-
-              <figure class="user">
-                <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-6.jpg" alt="Avatar">
-                </a>
-                <figcaption class="user-caption">
-                  <h4>Ariana Doe</h4>
-                  <span>Head of Experience Design</span>
-                  <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
-                  </ul>
-                </figcaption>
-              </figure>
-
-              <figure class="user">
-                <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-7.jpg" alt="Avatar">
-                </a>
-                <figcaption class="user-caption">
-                  <h4>Josh Doe</h4>
-                  <span>Head of Experience Design</span>
-                  <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
-                  </ul>
-                </figcaption>
-              </figure>
-
-              <figure class="user">
-                <a href="" class="user-photo">
-                  <img src="assets/images/demo/user-8.jpg" alt="Avatar">
-                </a>
-                <figcaption class="user-caption">
-                  <h4>Richard Doe</h4>
-                  <span>Head of Experience Design</span>
-                  <ul class="socials bordered">
-                    <li><a href="" class="icon-facebook fs-20"></a></li>
-                    <li><a href="" class="icon-instagram fs-20"></a></li>
-                    <li><a href="" class="icon-twitter fs-20"></a></li>
-                    <li><a href="" class="icon-linkedin fs-20"></a></li>
+                    <li><a href="https://www.instagram.com/phatboitee/" target="_blank" class="icon-instagram fs-20"></a></li>
+                    <li><a href="https://www.twitter.com/phatboiteee/" target="_blank" class="icon-twitter fs-20"></a></li>
+                    <li><a href="https://www.linkedin.com/in/thankgod-okoro/" target="_blank" class="icon-linkedin fs-20"></a></li>
                   </ul>
                 </figcaption>
               </figure>
@@ -268,7 +203,7 @@ include "./components/navbar.php";
                                     <h5>Registration</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
-                                            <li><img src="assets/images/register.jpg" alt="" title="Registration"></li>
+                                            <li><img src="assets/images/register.jpg" alt=""  title="Registration"></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -280,7 +215,7 @@ include "./components/navbar.php";
                                     <h5>Potrait Lighting</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
-                                            <li><img src="assets/images/rume.jpg" alt="" title="Rume John"></li>
+                                            <li><img src="assets/images/rume.jpg" alt="" data-toggle="tooltip" data-placement="top" title="Rume John"></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -321,7 +256,7 @@ include "./components/navbar.php";
                                     <h5>High-end Retouching</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
-                                            <li><img src="assets/images/rume.jpg" alt="" title="Rume John"></li>
+                                            <li><img src="assets/images/rume.jpg" alt="" data-toggle="tooltip" data-placement="top" title="Rume John"></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -361,7 +296,7 @@ include "./components/navbar.php";
                                     <h5>Retouching</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
-                                            <li><img src="assets/images/rume.jpg" alt="" title="Rume John"></li>
+                                            <li><img src="assets/images/rume.jpg" alt="" data-toggle="tooltip" data-placement="top" title="Rume John"></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -369,13 +304,12 @@ include "./components/navbar.php";
 
                             <div class="accordion" data-accordion>
                                 <div class="accordion-control" data-control>
-                                    <span class="fw-25">12:00PM - 1:30PM</span>
+                                    <span class="fw-25">12:00PM - 2:00PM</span>
                                     <h5>Photography Talk</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
-                                            <li><img src="assets/images/avatar.png" alt="" data-toggle="tooltip" data-placement="top" title="Avatar"></li>
-                                            <li><img src="assets/images/avatar.png" alt="" data-toggle="tooltip" data-placement="top" title="Avatar"></li>
-                                            <li><img src="assets/images/avatar.png" alt="" data-toggle="tooltip" data-placement="top" title="Avatar"></li>
+                                            <li><img src="assets/images/user-2.jpg" alt="" data-toggle="tooltip" data-placement="top" title="Favour Otunji"></li>
+                                            <li><img src="assets/images/user-3.jpg" alt="" data-toggle="tooltip" data-placement="top" title="Jeremie Julius"></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -383,7 +317,7 @@ include "./components/navbar.php";
 
                             <div class="accordion" data-accordion>
                                 <div class="accordion-control" data-control>
-                                    <span class="fw-25">1:00PM - 1:30PM</span>
+                                    <span class="fw-25">2:00PM - 2:30PM</span>
                                     <h5>Lunch Break</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
@@ -395,11 +329,11 @@ include "./components/navbar.php";
 
                             <div class="accordion" data-accordion>
                                 <div class="accordion-control" data-control>
-                                    <span class="fw-25">1:30PM - 3:00PM</span>
+                                    <span class="fw-25">2:30PM - 3:00PM</span>
                                     <h5>Brand Talk</h5>
                                     <div class="speakers text-right">
                                         <ul class="user-list">
-                                            <li><img src="assets/images/avatar.png" alt="" data-toggle="tooltip" data-placement="top" title="Avatar"></li>
+                                            <li><img src="assets/images/user-4.jpg" alt="" data-toggle="tooltip" data-placement="top" title="ThankGod Okoro"></li>
                                         </ul>
                                     </div>
                                 </div>
