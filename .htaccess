@@ -1,7 +1,6 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%
 
 ErrorDocument 404 /404.php
 
